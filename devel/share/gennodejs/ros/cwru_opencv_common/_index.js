@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/cwru_opencv_common/share/gennodejs/ros/cwru_opencv_common/_index.js

@@ -1,0 +1,60 @@
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/matcher.cpp:6:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:[m[K In constructor ‘[01m[KNeedleTemplate::NeedleTemplate()[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:63:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNeedleTemplate::GenerateTemplate(double, int, int, int, int, bool)[m[K’
+         GenerateTemplate(0.15, 0, 0, 0, 10, true[01;31m[K)[m[K;
+                                                 [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[Kcandidate: void NeedleTemplate::GenerateTemplate(float, float, float, float)
+     void [01;36m[KGenerateTemplate[m[K(float z, float a, float b, float y);
+          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+make[2]: *** [CMakeFiles/pfc_init.dir/src/matcher.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/needle_template.cpp:6:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:[m[K In constructor ‘[01m[KNeedleTemplate::NeedleTemplate()[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:63:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNeedleTemplate::GenerateTemplate(double, int, int, int, int, bool)[m[K’
+         GenerateTemplate(0.15, 0, 0, 0, 10, true[01;31m[K)[m[K;
+                                                 [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[Kcandidate: void NeedleTemplate::GenerateTemplate(float, float, float, float)
+     void [01;36m[KGenerateTemplate[m[K(float z, float a, float b, float y);
+          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pose_helper.h:6:0[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_initializer.cpp:7[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:[m[K In constructor ‘[01m[KNeedleTemplate::NeedleTemplate()[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:63:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNeedleTemplate::GenerateTemplate(double, int, int, int, int, bool)[m[K’
+         GenerateTemplate(0.15, 0, 0, 0, 10, true[01;31m[K)[m[K;
+                                                 [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[Kcandidate: void NeedleTemplate::GenerateTemplate(float, float, float, float)
+     void [01;36m[KGenerateTemplate[m[K(float z, float a, float b, float y);
+          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+make[2]: *** [CMakeFiles/pfc_init.dir/src/needle_template.cpp.o] Error 1
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pfc_initializer.cpp.o] Error 1
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pose_helper.h:6:0[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pose_helper.cpp:7[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:[m[K In constructor ‘[01m[KNeedleTemplate::NeedleTemplate()[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:63:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNeedleTemplate::GenerateTemplate(double, int, int, int, int, bool)[m[K’
+         GenerateTemplate(0.15, 0, 0, 0, 10, true[01;31m[K)[m[K;
+                                                 [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[Kcandidate: void NeedleTemplate::GenerateTemplate(float, float, float, float)
+     void [01;36m[KGenerateTemplate[m[K(float z, float a, float b, float y);
+          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pfc_initializer.h:2:0[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:7[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:[m[K In constructor ‘[01m[KNeedleTemplate::NeedleTemplate()[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:63:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNeedleTemplate::GenerateTemplate(double, int, int, int, int, bool)[m[K’
+         GenerateTemplate(0.15, 0, 0, 0, 10, true[01;31m[K)[m[K;
+                                                 [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[Kcandidate: void NeedleTemplate::GenerateTemplate(float, float, float, float)
+     void [01;36m[KGenerateTemplate[m[K(float z, float a, float b, float y);
+          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_template.h:40:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pose_helper.cpp.o] Error 1
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:89:46:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(PfcInitializer) (cv::Mat&, cv::Mat&, pfc::match_params&)[m[K’
+  pfc_init = pfc_init(l_image, r_image, params[01;31m[K)[m[K;
+                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init.dir/all] Error 2
+make: *** [all] Error 2

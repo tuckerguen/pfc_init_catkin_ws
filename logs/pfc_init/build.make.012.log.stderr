@@ -1,0 +1,7 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kvoid set_img_r(const ImageConstPtr&)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:33:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+         cv::Mat src =  cv_bridge::toCvShare([01;31m[Ki[m[K,"32FC2")->image;
+                                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init.dir/all] Error 2
+make: *** [all] Error 2

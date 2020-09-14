@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/cwru_davinci_kinematics/share/cwru_davinci_kinematics/cmake/cwru_davinci_kinematicsConfig-version.cmake

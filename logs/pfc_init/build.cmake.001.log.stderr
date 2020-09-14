@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/tucker/research/catkin_ws/src/pfc_init/CMakeLists.txt:162 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: main
+CMake Error: Cannot determine link language for target "main".

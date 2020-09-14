@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/uv_msgs/share/uv_msgs/cmake/uv_msgsConfig-version.cmake

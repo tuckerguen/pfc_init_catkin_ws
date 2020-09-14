@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++0x   -shared -Wl,-soname,libopencv_2d_lib.so -o /home/tucker/research/catkin_ws/devel/.private/cwru_opencv_common/lib/libopencv_2d_lib.so CMakeFiles/opencv_2d_lib.dir/src/opencv_geometry_2d.cpp.o  -L/usr/local/cuda/lib64 

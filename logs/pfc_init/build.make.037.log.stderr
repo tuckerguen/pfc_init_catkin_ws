@@ -1,0 +1,7 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:89:46:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(PfcInitializer) (cv::Mat&, cv::Mat&, pfc::match_params&)[m[K’
+  pfc_init = pfc_init(l_image, r_image, params[01;31m[K)[m[K;
+                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init.dir/all] Error 2
+make: *** [all] Error 2

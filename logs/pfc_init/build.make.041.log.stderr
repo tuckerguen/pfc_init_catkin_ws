@@ -1,0 +1,25 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/needle_template.cpp:[m[K In member function ‘[01m[Kvoid NeedleTemplate::GenerateTemplate(float, float, float, float)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/needle_template.cpp:17:38:[m[K [01;31m[Kerror: [m[K‘[01m[KP_l[m[K’ is not a member of ‘[01m[Kpfc[m[K’
+     cv::Mat projection = left ? pfc::[01;31m[KP_l[m[K : pfc::P_r;
+                                      [01;31m[K^~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/needle_template.cpp:17:49:[m[K [01;31m[Kerror: [m[K‘[01m[KP_r[m[K’ is not a member of ‘[01m[Kpfc[m[K’
+     cv::Mat projection = left ? pfc::P_l : pfc::[01;31m[KP_r[m[K;
+                                                 [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/pfc_init.dir/src/needle_template.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:56:7:[m[K [01;31m[Kerror: [m[K‘[01m[KP_l[m[K’ is not a member of ‘[01m[Kpfc[m[K’
+  pfc::[01;31m[KP_l[m[K = cv::Mat(3, 4, CV_64FC1, (void *) l_inf.K.data());
+       [01;31m[K^~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:10:[m[K [01;31m[Kerror: [m[K‘[01m[KP_r[m[K’ is not a member of ‘[01m[Kpfc[m[K’
+     pfc::[01;31m[KP_r[m[K = cv::Mat(3, 4, CV_64FC1, (void *) r_inf.K.data());
+          [01;31m[K^~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:87:3:[m[K [01;31m[Kerror: [m[K‘[01m[KP_l[m[K’ was not declared in this scope
+   [01;31m[KP_l[m[K,
+   [01;31m[K^~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:88:3:[m[K [01;31m[Kerror: [m[K‘[01m[KP_r[m[K’ was not declared in this scope
+   [01;31m[KP_r[m[K
+   [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init.dir/all] Error 2
+make: *** [all] Error 2

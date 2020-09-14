@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libpfc_init.so -o /home/tucker/research/catkin_ws/devel/.private/pfc_init/lib/libpfc_init.so CMakeFiles/pfc_init.dir/src/pfc_initializer.cpp.o  -L/usr/local/cuda/lib64 

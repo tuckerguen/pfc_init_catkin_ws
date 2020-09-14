@@ -1,0 +1,8 @@
+prefix=/home/tucker/research/catkin_ws/devel/.private/uv_control
+
+Name: uv_control
+Description: Description of uv_control
+Version: 1.0.0
+Cflags: -I/home/tucker/research/catkin_ws/src/uv_control/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lpsm_interface
+Requires: roscpp sensor_msgs actionlib control_msgs cwru_davinci_kinematics

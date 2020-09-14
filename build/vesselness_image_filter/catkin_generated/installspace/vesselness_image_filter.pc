@@ -1,0 +1,8 @@
+prefix=/home/tucker/research/catkin_ws/install
+
+Name: vesselness_image_filter
+Description: Description of vesselness_image_filter
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvesselness_lib
+Requires: dynamic_reconfigure image_transport cv_bridge_compat

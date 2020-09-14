@@ -1,0 +1,48 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/main.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kpfc_initializer_constants.h: No such file or directory
+ #include [01;31m[K"pfc_initializer_constants.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/template_match.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktemplate_match.h: No such file or directory
+ #include [01;31m[K"template_match.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/main.dir/src/template_match.cpp.o] Error 1
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/matcher.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kneedle_image.h: No such file or directory
+ #include [01;31m[K"needle_image.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/main.dir/src/matcher.cpp.o] Error 1
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/needle_pose.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kneedle_pose.h: No such file or directory
+ #include [01;31m[K"needle_pose.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/main.dir/src/needle_pose.cpp.o] Error 1
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/needle_image.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kneedle_image.h: No such file or directory
+ #include [01;31m[K"needle_image.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/main.dir/src/needle_image.cpp.o] Error 1
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_initializer.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kpose_helper.h: No such file or directory
+ #include [01;31m[K"pose_helper.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/needle_template.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kneedle_template.h: No such file or directory
+ #include [01;31m[K"needle_template.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pose_helper.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktemplate_match.h: No such file or directory
+ #include [01;31m[K"template_match.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/main.dir/src/pfc_initializer.cpp.o] Error 1
+make[2]: *** [CMakeFiles/main.dir/src/needle_template.cpp.o] Error 1
+make[2]: *** [CMakeFiles/main.dir/src/pose_helper.cpp.o] Error 1
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/csv_reader.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcsv_reader.h: No such file or directory
+ #include [01;31m[K"csv_reader.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/main.dir/src/csv_reader.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

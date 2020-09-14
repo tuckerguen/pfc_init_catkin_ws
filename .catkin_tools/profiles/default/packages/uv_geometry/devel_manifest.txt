@@ -1,0 +1,5 @@
+uv_geometry
+/home/tucker/research/catkin_ws/devel/.private/uv_geometry/cmake.lock /home/tucker/research/catkin_ws/devel/./cmake.lock
+/home/tucker/research/catkin_ws/devel/.private/uv_geometry/lib/pkgconfig/uv_geometry.pc /home/tucker/research/catkin_ws/devel/lib/pkgconfig/uv_geometry.pc
+/home/tucker/research/catkin_ws/devel/.private/uv_geometry/share/uv_geometry/cmake/uv_geometryConfig.cmake /home/tucker/research/catkin_ws/devel/share/uv_geometry/cmake/uv_geometryConfig.cmake
+/home/tucker/research/catkin_ws/devel/.private/uv_geometry/share/uv_geometry/cmake/uv_geometryConfig-version.cmake /home/tucker/research/catkin_ws/devel/share/uv_geometry/cmake/uv_geometryConfig-version.cmake

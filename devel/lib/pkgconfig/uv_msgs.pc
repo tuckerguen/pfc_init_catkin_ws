@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/uv_msgs/lib/pkgconfig/uv_msgs.pc

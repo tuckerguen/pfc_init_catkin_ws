@@ -1,0 +1,8 @@
+prefix=/home/tucker/research/catkin_ws/devel/.private/sim_gazebo
+
+Name: sim_gazebo
+Description: Description of sim_gazebo
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp controller_manager sensor_msgs uv_control

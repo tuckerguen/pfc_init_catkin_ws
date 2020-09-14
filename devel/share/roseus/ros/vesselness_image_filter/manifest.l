@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/vesselness_image_filter/share/roseus/ros/vesselness_image_filter/manifest.l

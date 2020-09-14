@@ -1,0 +1,8 @@
+prefix=/home/tucker/research/catkin_ws/devel/.private/uv_geometry
+
+Name: uv_geometry
+Description: Description of uv_geometry
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

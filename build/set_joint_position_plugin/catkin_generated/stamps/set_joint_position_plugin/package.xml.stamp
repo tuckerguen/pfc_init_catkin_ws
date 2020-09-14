@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+	<name>set_joint_position_plugin</name>
+	<version>1.0.0</version>
+	<description>Package for rapid, physics-skipping joint following in Gazebo.</description>
+
+	<maintainer email="nisommer@todo.todo">nisommer</maintainer>
+	<maintainer email="tes77@case.edu">Tom Shkurti</maintainer>
+	<author email="tes77@case.edu">Tom Shkurti</author>
+
+	<!-- One license tag required, multiple allowed, one license per tag -->
+	<!-- Commonly used license strings: -->
+	<!-- BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+	<license>TODO</license>
+
+	<url type="repository">https://github.com/cwru-robotics/gazebo_set_joint_position_plugin/tree/melodic</url>
+
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<build_depend>gazebo_ros</build_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>sensor_msgs</build_depend>
+
+	<run_depend>gazebo_ros</run_depend>
+	<run_depend>roscpp</run_depend>
+	<run_depend>sensor_msgs</run_depend>
+	
+	<!-- The export tag contains other, unspecified, tags -->
+	<export>
+		<gazebo_ros
+			plugin_path="${prefix}/lib"
+			gazebo_media_path="${prefix}"
+		/>
+	</export>
+</package>

@@ -1,0 +1,19 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PfcInitializer[m[K’ has no member named ‘[01m[K_[m[K’
+   pfc_init.[01;31m[K_[m[K = cv_ptr->image;
+            [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:74:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KNeedleImage[m[K’ and ‘[01m[Kcv::Mat[m[K’)
+   pfc_init.r_img = cv_ptr->[01;31m[Kimage[m[K;
+                            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pfc_initializer.h:1:0[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:7[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_image.h:9:7:[m[K [01;36m[Knote: [m[Kcandidate: NeedleImage& NeedleImage::operator=(const NeedleImage&)
+ class [01;36m[KNeedleImage[m[K
+       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/needle_image.h:9:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst NeedleImage&[m[K’
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:89:46:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(PfcInitializer) (cv::Mat&, cv::Mat&, pfc::match_params&)[m[K’
+  pfc_init = pfc_init(l_image, r_image, params[01;31m[K)[m[K;
+                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init.dir/all] Error 2
+make: *** [all] Error 2

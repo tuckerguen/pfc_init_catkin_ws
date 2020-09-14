@@ -1,0 +1,8 @@
+prefix=/home/tucker/research/catkin_ws/devel/.private/set_joint_position_plugin
+
+Name: set_joint_position_plugin
+Description: Description of set_joint_position_plugin
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lset_joint_position_plugin
+Requires: roscpp gazebo_ros roscpp gazebo_ros

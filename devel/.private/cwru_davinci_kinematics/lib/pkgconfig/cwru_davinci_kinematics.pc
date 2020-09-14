@@ -1,0 +1,8 @@
+prefix=/home/tucker/research/catkin_ws/devel/.private/cwru_davinci_kinematics
+
+Name: cwru_davinci_kinematics
+Description: Description of cwru_davinci_kinematics
+Version: 0.0.0
+Cflags: -I/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ldavinci_kinematics
+Requires: roscpp roslib

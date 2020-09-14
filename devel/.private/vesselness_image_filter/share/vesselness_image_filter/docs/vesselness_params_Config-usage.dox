@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="vesselness_params_" pkg="vesselness_image_filter" type="vesselness_params_">
+  <param name="side_h" type="int" value="3" />
+  <param name="variance_h" type="double" value="0.1" />
+  <param name="beta" type="double" value="0.1" />
+  <param name="c" type="double" value="0.1" />
+  <param name="side_p" type="int" value="3" />
+  <param name="variance_p" type="double" value="0.1" />
+</node>
+\endverbatim
+

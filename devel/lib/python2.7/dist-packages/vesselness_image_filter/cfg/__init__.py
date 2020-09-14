@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/vesselness_image_filter/lib/python2.7/dist-packages/vesselness_image_filter/cfg/__init__.py

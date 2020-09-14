@@ -1,0 +1,8 @@
+prefix=/home/tucker/research/catkin_ws/devel/.private/cwru_needle_tracking
+
+Name: cwru_needle_tracking
+Description: Description of cwru_needle_tracking
+Version: 0.0.0
+Cflags: -I/usr/local/cuda/include
+Libs: -L${prefix}/lib /usr/local/cuda/lib64/libcudart_static.a -lpthread -ldl /usr/lib/x86_64-linux-gnu/librt.so
+Requires: sensor_msgs cwru_opencv_common uv_control uv_msgs tf tf2 xform_utils

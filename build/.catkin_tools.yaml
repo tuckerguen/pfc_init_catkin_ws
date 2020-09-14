@@ -1,0 +1,6 @@
+devel_space: /home/tucker/research/catkin_ws/devel
+install: false
+install_space: /home/tucker/research/catkin_ws/install
+profile: default
+source_space: /home/tucker/research/catkin_ws/src
+workspace: /home/tucker/research/catkin_ws

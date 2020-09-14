@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~side_h" : \b [int] kernel width min: 1, default: 3, max: 10
+- \b "~variance_h" : \b [double] kernel variance min: 0.0, default: 0.1, max: 10.0
+- \b "~beta" : \b [double] ratio sensitivity min: 0.0, default: 0.1, max: 1.0
+- \b "~c" : \b [double] noise suppression min: 0.0, default: 0.1, max: 1.0
+- \b "~side_p" : \b [int] kernel width min: 1, default: 3, max: 10
+- \b "~variance_p" : \b [double] kernel variance min: 0.0, default: 0.1, max: 10.0
+

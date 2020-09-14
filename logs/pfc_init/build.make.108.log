@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target pfc_init_node[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/pfc_init_node.dir/src/needle_template.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/pfc_init_node.dir/src/matcher.cpp.o[0m
+[ 30%] [32m[1mLinking CXX executable /home/tucker/research/catkin_ws/devel/.private/pfc_init/lib/pfc_init/pfc_init_node[0m
+[100%] Built target pfc_init_node

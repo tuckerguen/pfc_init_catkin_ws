@@ -1,0 +1,10 @@
+/opt/ros/melodic/include/sensor_msgs/image_encodings.h(180): warning: statement is unreachable
+
+/opt/ros/melodic/include/sensor_msgs/image_encodings.h(228): warning: statement is unreachable
+
+/home/tucker/research/catkin_ws/src/vesselness_image_filter_common/src/gpu/cu/vesselness_image_filter_gpu.cu(190): warning: variable "gaussPixCount" was declared but never referenced
+
+/opt/ros/melodic/include/sensor_msgs/image_encodings.h(180): warning: statement is unreachable
+
+/opt/ros/melodic/include/sensor_msgs/image_encodings.h(228): warning: statement is unreachable
+

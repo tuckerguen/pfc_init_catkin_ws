@@ -1,0 +1,51 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:9:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPfcInitializer::PfcInitializer()[m[K’
+ PfcInitializer [01;31m[Kpfc_init[m[K;
+                [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:7:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pfc_initializer.h:61:5:[m[K [01;36m[Knote: [m[Kcandidate: PfcInitializer::PfcInitializer(cv::Mat&, cv::Mat&, pfc::match_params)
+     [01;36m[KPfcInitializer[m[K(cv::Mat& l_img, cv::Mat& r_img, pfc::match_params params)
+     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pfc_initializer.h:61:5:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pfc_initializer.h:12:7:[m[K [01;36m[Knote: [m[Kcandidate: PfcInitializer::PfcInitializer(const PfcInitializer&)
+ class [01;36m[KPfcInitializer[m[K
+       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pfc_initializer.h:12:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pfc_initializer.h:12:7:[m[K [01;36m[Knote: [m[Kcandidate: PfcInitializer::PfcInitializer(PfcInitializer&&)
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/include/pfc_init/pfc_initializer.h:12:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kvoid run()[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:16:111:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+   cv_ptr = cv_bridge::toCvCopy(ros::topic::waitForMessage<sensor_msgs::Image>("/davinci_endo/left/image_raw", [01;31m[Knh[m[K));
+                                                                                                               [01;31m[K^~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:17:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PfcInitializer[m[K’ has no member named ‘[01m[Kl_img[m[K’
+   pfc_init.[01;31m[Kl_img[m[K = cv_ptr->image;
+            [01;31m[K^~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:22:112:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+   cv_ptr = cv_bridge::toCvCopy(ros::topic::waitForMessage<sensor_msgs::Image>("/davinci_endo/right/image_raw", [01;31m[Knh[m[K));
+                                                                                                                [01;31m[K^~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:23:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PfcInitializer[m[K’ has no member named ‘[01m[Kl_img[m[K’
+   pfc_init.[01;31m[Kl_img[m[K = cv_ptr->image;
+            [01;31m[K^~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:30:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PfcInitializer[m[K’ has no member named ‘[01m[Kl_img[m[K’
+  cv::imshow("l", pfc_init.[01;31m[Kl_img[m[K);
+                           [01;31m[K^~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:34:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PfcInitializer[m[K’ has no member named ‘[01m[Kr_img[m[K’
+  cv::imshow("r", pfc_init.[01;31m[Kr_img[m[K);
+                           [01;31m[K^~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:89:46:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(PfcInitializer) (cv::Mat&, cv::Mat&, pfc::match_params&)[m[K’
+  pfc_init = pfc_init(l_image, r_image, params[01;31m[K)[m[K;
+                                              [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:92:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_img_l[m[K’ was not declared in this scope
+  l_cam_sub = nh.subscribe("/davinci_endo/left/image_raw" , 1, [01;31m[Kset_img_l[m[K);
+                                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:93:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_img_r[m[K’ was not declared in this scope
+  r_cam_sub = nh.subscribe("/davinci_endo/right/image_raw", 1, [01;31m[Kset_img_r[m[K);
+                                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:93:63:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksetitimer[m[K’
+  r_cam_sub = nh.subscribe("/davinci_endo/right/image_raw", 1, [01;36m[Kset_img_r[m[K);
+                                                               [01;36m[K^~~~~~~~~[m[K
+                                                               [32m[Ksetitimer[m[K
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pfc_init_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/pfc_init.dir/all] Error 2
+make: *** [all] Error 2

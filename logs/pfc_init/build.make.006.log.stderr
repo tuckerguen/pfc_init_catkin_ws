@@ -1,0 +1,22 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:55:44:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::CameraInfo {aka sensor_msgs::CameraInfo_<std::allocator<void> >}[m[K’
+  cv::Mat P_l(3, 4, CV_64FC1, (void *) l_inf[01;31m[K->[m[KK.data());
+                                            [01;31m[K^~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:56:47:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::CameraInfo {aka sensor_msgs::CameraInfo_<std::allocator<void> >}[m[K’
+     cv::Mat P_r(3, 4, CV_64FC1, (void *) r_inf[01;31m[K->[m[KK.data());
+                                               [01;31m[K^~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:69:3:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   [01;31m[Kreturn[m[K;
+   [01;31m[K^~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:77:3:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   [01;31m[Kreturn[m[K;
+   [01;31m[K^~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:81:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kl_cam_sub[m[K’ was not declared in this scope
+  [01;31m[Kl_cam_sub[m[K = nh.subscribe("/davinci_endo/left/image_raw" , 1, set_img_l);
+  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:82:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kr_cam_sub[m[K’ was not declared in this scope
+  [01;31m[Kr_cam_sub[m[K = nh.subscribe("/davinci_endo/right/image_raw", 1, set_img_r);
+  [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pfc_init.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init.dir/all] Error 2
+make: *** [all] Error 2

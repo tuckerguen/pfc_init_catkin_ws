@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tucker/research/catkin_ws/devel/.private/cwru_needle_tracking/setup.sh

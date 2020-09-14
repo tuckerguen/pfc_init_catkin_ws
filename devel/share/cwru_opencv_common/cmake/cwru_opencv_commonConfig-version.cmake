@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/cwru_opencv_common/share/cwru_opencv_common/cmake/cwru_opencv_commonConfig-version.cmake

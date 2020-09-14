@@ -1,0 +1,22 @@
+CMakeFiles/vesselness_image_viewer_cpu_node.dir/src/cpu/vesselness_image_viewer_node.cpp.o: In function `ImageConverter::imageCb(boost::shared_ptr<sensor_msgs::Image_<std::allocator<void> > const> const&)':
+vesselness_image_viewer_node.cpp:(.text._ZN14ImageConverter7imageCbERKN5boost10shared_ptrIKN11sensor_msgs6Image_ISaIvEEEEE[_ZN14ImageConverter7imageCbERKN5boost10shared_ptrIKN11sensor_msgs6Image_ISaIvEEEEE]+0x66): undefined reference to `cv_bridge::toCvCopy(boost::shared_ptr<sensor_msgs::Image_<std::allocator<void> > const> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/tucker/research/catkin_ws/devel/.private/vesselness_image_filter/lib/vesselness_image_filter/vesselness_image_viewer_cpu_node] Error 1
+make[1]: *** [CMakeFiles/vesselness_image_viewer_cpu_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/vesselness_image_viewer_gpu_node.dir/src/gpu/cpp/vesselness_image_viewer_gpu_node.cpp.o: In function `ImageConverter::imageCb(boost::shared_ptr<sensor_msgs::Image_<std::allocator<void> > const> const&)':
+vesselness_image_viewer_gpu_node.cpp:(.text._ZN14ImageConverter7imageCbERKN5boost10shared_ptrIKN11sensor_msgs6Image_ISaIvEEEEE[_ZN14ImageConverter7imageCbERKN5boost10shared_ptrIKN11sensor_msgs6Image_ISaIvEEEEE]+0x66): undefined reference to `cv_bridge::toCvCopy(boost::shared_ptr<sensor_msgs::Image_<std::allocator<void> > const> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/tucker/research/catkin_ws/devel/.private/vesselness_image_filter/lib/vesselness_image_filter/vesselness_image_viewer_gpu_node] Error 1
+make[1]: *** [CMakeFiles/vesselness_image_viewer_gpu_node.dir/all] Error 2
+/opt/ros/melodic/include/sensor_msgs/image_encodings.h(180): warning: statement is unreachable
+
+/opt/ros/melodic/include/sensor_msgs/image_encodings.h(228): warning: statement is unreachable
+
+/home/tucker/research/catkin_ws/src/vesselness_image_filter_common/src/gpu/cu/vesselness_image_filter_gpu.cu(190): warning: variable "gaussPixCount" was declared but never referenced
+
+/opt/ros/melodic/include/sensor_msgs/image_encodings.h(180): warning: statement is unreachable
+
+/opt/ros/melodic/include/sensor_msgs/image_encodings.h(228): warning: statement is unreachable
+
+make: *** [all] Error 2

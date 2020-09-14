@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/include/cwru_davinci_kinematics/davinci_kinematic_definitions.h
+
+/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_kinematic_definitions.cpp
+cwru_davinci_kinematics/davinci_kinematic_definitions.h
+-
+math.h
+-
+

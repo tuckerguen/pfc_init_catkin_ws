@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+	<name>uv_geometry</name>
+	<version>1.0.0</version>
+	<description>Geometric model of the da Vinci, useful for hardware and simulation.</description>
+
+	<maintainer email="tes77@case.edu">Tom Shkurti</maintainer>
+
+	<license>MIT</license>
+
+	<url type="repository">http://github.com/cwru-davinci/uv_geometry</url>
+
+	<author email="rcj33@case.edu">Russell Jackson</author>
+	<author email="tes77@case.edu">Tom Shkurti</author>
+
+	<buildtool_depend>catkin</buildtool_depend>
+</package>

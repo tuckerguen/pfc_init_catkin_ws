@@ -1,0 +1,19 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:69:74:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kboost::shared_ptr<const sensor_msgs::Image_<std::allocator<void> > >[m[K’ to non-scalar type ‘[01m[Ksensor_msgs::Image {aka sensor_msgs::Image_<std::allocator<void> >}[m[K’ requested
+   sensor_msgs::Image img = [01;31m[Kros::topic::waitForMessage<sensor_msgs::Image>("/davinci_endo/left/image_raw", nh)[m[K;
+                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:70:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvShare(sensor_msgs::Image&, const char [6])[m[K’
+   l_img = cv_bridge::toCvShare(img,"32FC2"[01;31m[K)[m[K->image;
+                                           [01;31m[K^[m[K
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:5:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:240:17:[m[K [01;36m[Knote: [m[Kcandidate: cv_bridge::CvImageConstPtr cv_bridge::toCvShare(const Image&, const boost::shared_ptr<const void>&, const string&)
+ CvImageConstPtr [01;36m[KtoCvShare[m[K(const sensor_msgs::Image& source,
+                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:240:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst char [6][m[K’ to ‘[01m[Kconst boost::shared_ptr<const void>&[m[K’
+[01m[K/home/tucker/research/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:213:17:[m[K [01;36m[Knote: [m[Kcandidate: cv_bridge::CvImageConstPtr cv_bridge::toCvShare(const ImageConstPtr&, const string&)
+ CvImageConstPtr [01;36m[KtoCvShare[m[K(const sensor_msgs::ImageConstPtr& source,
+                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:213:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::Image {aka sensor_msgs::Image_<std::allocator<void> >}[m[K’ to ‘[01m[Kconst ImageConstPtr& {aka const boost::shared_ptr<const sensor_msgs::Image_<std::allocator<void> > >&}[m[K’
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

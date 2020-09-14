@@ -1,0 +1,141 @@
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kbool davinci_kinematics::Inverse::solve_jacobian_ik(const Affine3d&, Eigen::VectorXd&)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:88:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kupdated[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   bool [01;35m[Kupdated[m[K = false;
+        [01;35m[K^~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kint davinci_kinematics::Inverse::ik_solve_refined(const Affine3d&)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:243:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint davinci_kinematics::Inverse::ik_solve(const Affine3d&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   if (ik_solve(desired_hand_pose[01;35m[K)[m[K > 0)
+                                 [01;35m[K^[m[K
+In file included from [01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:19:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/include/cwru_davinci_kinematics/davinci_inv_kinematics.h:68:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   int  [01;36m[Kik_solve[m[K(Eigen::Affine3d const& desired_hand_pose);
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:235:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kcount[m[K = 0;
+       [01;35m[K^~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:236:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kone[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   const int [01;35m[Kone[m[K = 1;
+             [01;35m[K^~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:237:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktwo[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   const int [01;35m[Ktwo[m[K = 2;
+             [01;35m[K^~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:238:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kminus_nine[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   const int [01;35m[Kminus_nine[m[K = -9;
+             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kbool davinci_kinematics::Inverse::solve_jacobian_frozen_ik(const Vector3d&, Eigen::VectorXd&)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:290:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdtheta[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Kdtheta[m[K;
+          [01;35m[K^~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:314:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerr_dtheta[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Kerr_dtheta[m[K = -1;
+          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:318:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kupdated[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   bool [01;35m[Kupdated[m[K = false;
+        [01;35m[K^~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kint davinci_kinematics::Inverse::ik_solve(const Affine3d&, std::__cxx11::string)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:963:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kint davinci_kinematics::Inverse::ik_solve_refined(const Affine3d&, std::__cxx11::string)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:977:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint davinci_kinematics::Inverse::ik_solve(const Affine3d&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   if (ik_solve(desired_hand_pose[01;35m[K)[m[K > 0)
+                                 [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:689:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ int [01;36m[KInverse[m[K::ik_solve(Eigen::Affine3d const& desired_hand_pose)
+     [01;36m[K^~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:972:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kcount[m[K = 0;
+       [01;35m[K^~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kbool davinci_kinematics::Inverse::solve_jacobian_ik(const Affine3d&, Eigen::VectorXd&, std::__cxx11::string)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1023:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdouble_attempted[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   bool [01;35m[Kdouble_attempted[m[K(false);
+        [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1024:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khalf_attempted[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   bool [01;35m[Khalf_attempted[m[K(false);
+        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1071:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kupdated[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   bool [01;35m[Kupdated[m[K = false;
+        [01;35m[K^~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kbool davinci_kinematics::Inverse::solve_jacobian_frozen_ik(const Vector3d&, Eigen::VectorXd&, std::__cxx11::string)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1301:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerr_dtheta[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Kerr_dtheta[m[K = -1;
+          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1305:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kupdated[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   bool [01;35m[Kupdated[m[K = false;
+        [01;35m[K^~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kbool davinci_kinematics::Inverse::solve_jacobian_ik(const Affine3d&, Eigen::VectorXd&)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:230:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kint davinci_kinematics::Inverse::ik_solve_refined(const Affine3d&)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:270:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kbool davinci_kinematics::Inverse::solve_jacobian_frozen_ik(const Vector3d&, Eigen::VectorXd&)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:406:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kint davinci_kinematics::Inverse::ik_solve_frozen_refined(const Vector3d&)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:493:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kint davinci_kinematics::Inverse::ik_solve_refined(const Affine3d&, std::__cxx11::string)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:999:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kbool davinci_kinematics::Inverse::solve_jacobian_ik(const Affine3d&, Eigen::VectorXd&, std::__cxx11::string)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1197:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kint davinci_kinematics::Inverse::ik_solve_frozen_refined(const Vector3d&, std::__cxx11::string)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1256:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:[m[K In member function ‘[01m[Kbool davinci_kinematics::Inverse::solve_jacobian_frozen_ik(const Vector3d&, Eigen::VectorXd&, std::__cxx11::string)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1390:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/src/davinci_inv_kinematics.cpp:1380:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdtheta[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+     std::cout << "[" << kinematic_set_name << "] "<< "fabs(dtheta): " << fabs(dtheta[01;35m[K)[m[K << std::endl;
+                                                                                     [01;35m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_ik_refined_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_ik_refined_test.cpp:55:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint davinci_kinematics::Inverse::ik_solve(const Affine3d&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     if (dvrk_inverse.ik_solve(affine_gripper_wrt_base[01;35m[K)[m[K > 0)
+                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_ik_refined_test.cpp:9:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/include/cwru_davinci_kinematics/davinci_inv_kinematics.h:68:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   int  [01;36m[Kik_solve[m[K(Eigen::Affine3d const& desired_hand_pose);
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_jacobian_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_jacobian_demo.cpp:50:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kans[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kans[m[K;
+       [01;35m[K^~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_inv_kinematics_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_inv_kinematics_demo.cpp:43:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint davinci_kinematics::Inverse::ik_solve(const Affine3d&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+     if (dvrk_inverse.ik_solve(affine_gripper_wrt_base[01;35m[K)[m[K > 0)
+                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_inv_kinematics_demo.cpp:10:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/include/cwru_davinci_kinematics/davinci_inv_kinematics.h:68:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   int  [01;36m[Kik_solve[m[K(Eigen::Affine3d const& desired_hand_pose);
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/test_new_ik_err.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/test_new_ik_err.cpp:70:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_joint_vals[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   bool [01;35m[Knew_joint_vals[m[K(false);
+        [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/test_dh_345.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/test_dh_345.cpp:21:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerr_cnt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kerr_cnt[m[K = 0;
+       [01;35m[K^~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/test_dh_345.cpp:22:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktip_err_cnt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Ktip_err_cnt[m[K = 0;
+       [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/test_dh_345.cpp:23:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktip_err_sum[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Ktip_err_sum[m[K = 0.0;
+          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/test_dh_345.cpp:24:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktip_err_ave[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Ktip_err_ave[m[K = 0.0;
+          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_jacobian_test_rn.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/examples/davinci_jacobian_test_rn.cpp:83:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kans[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kans[m[K;
+       [01;35m[K^~~[m[K

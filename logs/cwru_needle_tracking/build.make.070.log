@@ -1,0 +1,4 @@
+[ 25%] Built target kin_unit_tests
+[ 50%] Built target pf_cuda_lib
+[ 75%] Built target particle_filter_cuda
+[100%] Built target pfc_main

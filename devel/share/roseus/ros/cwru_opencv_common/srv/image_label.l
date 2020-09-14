@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/cwru_opencv_common/share/roseus/ros/cwru_opencv_common/srv/image_label.l

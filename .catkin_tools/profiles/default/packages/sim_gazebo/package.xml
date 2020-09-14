@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+	<name>sim_gazebo</name>
+	<version>1.0.0</version>
+	<description>da Vinci gazebo simulation.</description>
+
+	<maintainer email="tes77@case.edu">Tom Shkurti</maintainer>
+
+	<license>MIT</license>
+
+	<url type="repository">http://github.com/cwru-davinci/sim_gazebo</url>
+
+	<author email="wsn@case.edu">Wyatt Newman</author>
+	<author email="tes77@case.edu">Tom Shkurti</author>
+
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<build_depend>roscpp</build_depend>
+	<build_depend>controller_manager</build_depend>
+	<build_depend>sensor_msgs</build_depend>
+	<build_depend>uv_control</build_depend>
+	
+	<run_depend>roscpp</run_depend>
+	<run_depend>controller_manager</run_depend>
+	<run_depend>sensor_msgs</run_depend>
+	<run_depend>uv_control</run_depend>
+</package>

@@ -1,0 +1,8 @@
+prefix=/home/tucker/research/catkin_ws/devel/.private/pfc_init
+
+Name: pfc_init
+Description: Description of pfc_init
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

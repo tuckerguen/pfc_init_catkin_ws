@@ -1,0 +1,1 @@
+/home/tucker/research/catkin_ws/devel/.private/cwru_opencv_common/share/common-lisp/ros/cwru_opencv_common/srv/_package_image_label.lisp
