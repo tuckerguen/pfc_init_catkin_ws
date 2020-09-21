@@ -1,0 +1,20 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:70:74:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  l_cam_sub = nh.subscribe("/davinci_endo/left/image_raw" , 1, &CB_cam_l, [01;31m[Kthis[m[K);
+                                                                          [01;31m[K^~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:71:74:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  r_cam_sub = nh.subscribe("/davinci_endo/right/image_raw", 1, &CB_cam_r, [01;31m[Kthis[m[K);
+                                                                          [01;31m[K^~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:132:2:[m[K [01;31m[Kerror: [m[K‘[01m[KspinOnce[m[K’ was not declared in this scope
+  [01;31m[KspinOnce[m[K();
+  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:132:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/melodic/include/ros/node_handle.h:47:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/init.h:147:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::spinOnce[m[K’
+ ROSCPP_DECL void [01;36m[KspinOnce[m[K();
+                  [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

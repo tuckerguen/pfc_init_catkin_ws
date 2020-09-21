@@ -573,14 +573,26 @@ CMakeFiles/pfc_init_node.dir/src/needle_template.cpp.o: /usr/local/include/openc
 CMakeFiles/pfc_init_node.dir/src/needle_template.cpp.o: /usr/local/include/opencv2/xfeatures2d/cuda.hpp
 CMakeFiles/pfc_init_node.dir/src/needle_template.cpp.o: /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/csv_reader.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/needle_image.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/needle_pose.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/needle_template.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/pfc_initializer.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/pfc_initializer_constants.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/pose_helper.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/template_match.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /home/tucker/research/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/gazebo_msgs/ModelState.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/gazebo_msgs/ModelStates.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/gazebo_msgs/SetModelState.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/gazebo_msgs/SetModelStateRequest.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/gazebo_msgs/SetModelStateResponse.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/geometry_msgs/Pose.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/geometry_msgs/Quaternion.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/geometry_msgs/Twist.h
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/geometry_msgs/Vector3.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o: /opt/ros/melodic/include/ros/assert.h

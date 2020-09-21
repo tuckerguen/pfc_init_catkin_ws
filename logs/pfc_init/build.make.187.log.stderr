@@ -1,0 +1,7 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:160:35:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kresults[m[K’ from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > >[m[K’
+         writeDataListToCSV(results[01;31m[K)[m[K;
+                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

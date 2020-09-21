@@ -1,0 +1,59 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kazebo_msgs[m[K’ was not declared in this scope
+   ros::topic::waitForMessage<[01;31m[Kazebo_msgs[m[K::ModelStates>("/gazebo/model_states", nh)
+                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:15:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   ros::topic::[01;31m[KwaitForMessage<azebo_msgs::ModelStates>[m[K("/gazebo/model_states", nh)
+               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:81:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KwaitForMessage<<expression error> >(const char [21], ros::NodeHandle&)[m[K’
+   ros::topic::waitForMessage<azebo_msgs::ModelStates>("/gazebo/model_states", nh[01;31m[K)[m[K
+                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:55:0[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/topic.h:86:28:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> boost::shared_ptr<const M> ros::topic::waitForMessage(const string&, ros::NodeHandle&, ros::Duration)
+ boost::shared_ptr<M const> [01;36m[KwaitForMessage[m[K(const std::string& topic, NodeHandle& nh, ros::Duration timeout)
+                            [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/topic.h:86:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   ros::topic::waitForMessage<azebo_msgs::ModelStates>("/gazebo/model_states", nh[01;31m[K)[m[K
+                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:55:0[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/topic.h:105:28:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> boost::shared_ptr<const M> ros::topic::waitForMessage(const string&)
+ boost::shared_ptr<M const> [01;36m[KwaitForMessage[m[K(const std::string& topic)
+                            [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/topic.h:105:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   ros::topic::waitForMessage<azebo_msgs::ModelStates>("/gazebo/model_states", nh[01;31m[K)[m[K
+                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:55:0[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/topic.h:120:28:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> boost::shared_ptr<const M> ros::topic::waitForMessage(const string&, ros::Duration)
+ boost::shared_ptr<M const> [01;36m[KwaitForMessage[m[K(const std::string& topic, ros::Duration timeout)
+                            [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/topic.h:120:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   ros::topic::waitForMessage<azebo_msgs::ModelStates>("/gazebo/model_states", nh[01;31m[K)[m[K
+                                                                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:55:0[m[K,
+                 from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/topic.h:135:28:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> boost::shared_ptr<const M> ros::topic::waitForMessage(const string&, ros::NodeHandle&)
+ boost::shared_ptr<M const> [01;36m[KwaitForMessage[m[K(const std::string& topic, ros::NodeHandle& nh)
+                            [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/topic.h:135:28:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   ros::topic::waitForMessage<azebo_msgs::ModelStates>("/gazebo/model_states", nh[01;31m[K)[m[K
+                                                                                 [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:58:2:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{<expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kgazebo_msgs::ModelStates {aka gazebo_msgs::ModelStates_<std::allocator<void> >}[m[K’
+  [01;31m[K}[m[K
+  [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:61:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kneedle_pose[m[K’ was not declared in this scope
+  cout << [01;31m[Kneedle_pose[m[K.position.z << endl;
+          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:61:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KNeedlePose[m[K’
+  cout << [01;36m[Kneedle_pose[m[K.position.z << endl;
+          [01;36m[K^~~~~~~~~~~[m[K
+          [32m[KNeedlePose[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

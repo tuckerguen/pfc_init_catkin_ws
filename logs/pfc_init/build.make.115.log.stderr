@@ -1,0 +1,14 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:58:2:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{ros::topic::waitForMessage(const string&, ros::NodeHandle&) [with M = gazebo_msgs::ModelStates_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>](nh)}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kgazebo_msgs::ModelStates {aka gazebo_msgs::ModelStates_<std::allocator<void> >}[m[K’
+  [01;31m[K}[m[K
+  [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:61:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kneedle_pose[m[K’ was not declared in this scope
+  cout << [01;31m[Kneedle_pose[m[K.position.z << endl;
+          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:61:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KNeedlePose[m[K’
+  cout << [01;36m[Kneedle_pose[m[K.position.z << endl;
+          [01;36m[K^~~~~~~~~~~[m[K
+          [32m[KNeedlePose[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

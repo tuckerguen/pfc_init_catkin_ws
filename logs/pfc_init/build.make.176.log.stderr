@@ -1,0 +1,9 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:49:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+   [01;31m[Kcatch[m[K(cv_bridge::Exception& e){
+   [01;31m[K^~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:52:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

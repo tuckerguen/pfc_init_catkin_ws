@@ -1,0 +1,34 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:56:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ has not been declared
+  [01;31m[Kgazebo[m[K::ModelState modelstate;
+  [01;31m[K^~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodelstate[m[K’ was not declared in this scope
+  [01;31m[Kmodelstate[m[K.model_name = (std::string) "needle";
+  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:57:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksetstate[m[K’
+  [01;36m[Kmodelstate[m[K.model_name = (std::string) "needle";
+  [01;36m[K^~~~~~~~~~[m[K
+  [32m[Ksetstate[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:62:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope
+  ros::ServiceClient client = [01;31m[Kn[m[K.serviceClient<gazebo::SetModelState>("/gazebo/set_model_state");
+                              [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:62:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knh[m[K’
+  ros::ServiceClient client = [01;36m[Kn[m[K.serviceClient<gazebo::SetModelState>("/gazebo/set_model_state");
+                              [01;36m[K^[m[K
+                              [32m[Knh[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:62:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ has not been declared
+  ros::ServiceClient client = n.serviceClient<[01;31m[Kgazebo[m[K::SetModelState>("/gazebo/set_model_state");
+                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:63:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ has not been declared
+  [01;31m[Kgazebo[m[K::SetModelState setmodelstate;
+  [01;31m[K^~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:64:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetmodelstate[m[K’ was not declared in this scope
+  [01;31m[Ksetmodelstate[m[K.request.model_state = modelstate;
+  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:64:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksetstate[m[K’
+  [01;36m[Ksetmodelstate[m[K.request.model_state = modelstate;
+  [01;36m[K^~~~~~~~~~~~~[m[K
+  [32m[Ksetstate[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

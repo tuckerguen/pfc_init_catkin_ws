@@ -1,0 +1,24 @@
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_initializer.cpp:9:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/pfc_initializer.h:23:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPfcInitializer::[m[K’ on member ‘[01m[KdisplayResults[m[K’ [[01;31m[K-fpermissive[m[K]
+     void [01;31m[KPfcInitializer[m[K::displayResults(NeedlePose true_pose);
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_initializer.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:9:0[m[K:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/./include/pfc_init/pfc_initializer.h:23:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPfcInitializer::[m[K’ on member ‘[01m[KdisplayResults[m[K’ [[01;31m[K-fpermissive[m[K]
+     void [01;31m[KPfcInitializer[m[K::displayResults(NeedlePose true_pose);
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:64:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kcv[m[K’
+  [01;31m[Kcv[m[K::Point3d loc(needle_pose.position.x, needle_pose.position.y, needle_pose.position.z)
+  [01;31m[K^~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:112:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrue_pose[m[K’ was not declared in this scope
+     pfc_init.run(true, true, [01;31m[Ktrue_pose[m[K);
+                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:112:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kneedle_pose[m[K’
+     pfc_init.run(true, true, [01;36m[Ktrue_pose[m[K);
+                              [01;36m[K^~~~~~~~~[m[K
+                              [32m[Kneedle_pose[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

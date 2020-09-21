@@ -1,0 +1,13 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:138:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat v[m[K’
+   float u = rng(0,1), v = rng(0,1), [01;31m[Kv[m[K = rng(0,1);
+                                     [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:138:23:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat v[m[K’ previously declared here
+   float u = rng(0,1), [01;36m[Kv[m[K = rng(0,1), v = rng(0,1);
+                       [01;36m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:141:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+   start_pose.orientation.z = sqrt(u) * sin(2*M_PI*[01;31m[Kw[m[K);
+                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,17 @@
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:151:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   vector<vector<string>> results = pfc[01;31m[K.[m[KgetResultsAsVector(true_pose);
+                                       [01;31m[K^[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:152:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_list[m[K’ was not declared in this scope
+   [01;31m[Kdata_list[m[K.insert(data_list.begin(), csv_key);
+   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:152:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kva_list[m[K’
+   [01;36m[Kdata_list[m[K.insert(data_list.begin(), csv_key);
+   [01;36m[K^~~~~~~~~[m[K
+   [32m[Kva_list[m[K
+[01m[K/home/tucker/research/catkin_ws/src/pfc_init/src/pfc_init_node.cpp:153:9:[m[K [01;31m[Kerror: [m[K‘[01m[KwriteDataListToCSV[m[K’ was not declared in this scope
+         [01;31m[KwriteDataListToCSV[m[K(data_list);
+         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2

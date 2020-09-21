@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/tucker/research/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/tucker/research/catkin_ws/src/vision_opencv/cv_bridge/include/**",
+                "/home/tucker/research/test_ws/src/cwru_davinci_control/include/**",
+                "/home/tucker/research/catkin_ws/src/cwru_davinci_kinematics/include/**",
+                "/home/tucker/research/catkin_ws/src/cwru_suture_needles/needle_tracking/include/**",
+                "/home/tucker/research/catkin_ws/src/cwru_vision/cwru_opencv_common/include/**",
+                "/home/tucker/research/catkin_ws/src/vision_opencv/image_geometry/include/**",
+                "/home/tucker/research/catkin_ws/src/pfc_init/include/**",
+                "/home/tucker/research/catkin_ws/src/roboticsgroup_gazebo_plugins/include/**",
+                "/home/tucker/research/catkin_ws/src/gazebo_set_joint_position_plugin/include/**",
+                "/home/tucker/research/catkin_ws/src/uv_control/include/**",
+                "/home/tucker/research/catkin_ws/src/vesselness_image_filter_common/include/**",
+                "/home/tucker/research/test_ws/src/xform_utils/xform_utils/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
