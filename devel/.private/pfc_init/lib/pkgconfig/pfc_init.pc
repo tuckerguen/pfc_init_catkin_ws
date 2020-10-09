@@ -1,4 +1,4 @@
-prefix=/home/tucker/research/catkin_ws/devel/.private/pfc_init
+prefix=/home/tucker/research/catkin_ws/devel
 
 Name: pfc_init
 Description: Description of pfc_init
