@@ -1,0 +1,19 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _uv_msgs_generate_messages_check_deps_pf_grasp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _uv_msgs_generate_messages_check_deps_pf_reseed
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _uv_msgs_generate_messages_check_deps_pf_anneal
+[ 17%] Built target uv_msgs_generate_messages_cpp
+[ 35%] Built target uv_msgs_generate_messages_nodejs
+[ 52%] Built target uv_msgs_generate_messages_lisp
+[ 76%] Built target uv_msgs_generate_messages_eus
+[100%] Built target uv_msgs_generate_messages_py
+[100%] Built target uv_msgs_generate_messages

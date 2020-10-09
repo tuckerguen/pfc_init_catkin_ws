@@ -1,0 +1,13 @@
+CMakeFiles/pfc_init_node.dir/src/pfc_initializer.cpp.o: In function `constrainAngle(double)':
+pfc_initializer.cpp:(.text+0x0): multiple definition of `constrainAngle(double)'
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o:pfc_init_node.cpp:(.text+0x0): first defined here
+CMakeFiles/pfc_init_node.dir/src/pose_helper.cpp.o: In function `constrainAngle(double)':
+pose_helper.cpp:(.text+0x52): multiple definition of `constrainAngle(double)'
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o:pfc_init_node.cpp:(.text+0x0): first defined here
+CMakeFiles/pfc_init_node.dir/src/matcher.cpp.o: In function `constrainAngle(double)':
+matcher.cpp:(.text+0x15b): multiple definition of `constrainAngle(double)'
+CMakeFiles/pfc_init_node.dir/src/pfc_init_node.cpp.o:pfc_init_node.cpp:(.text+0x0): first defined here
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/tucker/research/catkin_ws/devel/.private/pfc_init/lib/pfc_init/pfc_init_node] Error 1
+make[1]: *** [CMakeFiles/pfc_init_node.dir/all] Error 2
+make: *** [all] Error 2
